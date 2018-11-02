@@ -14,6 +14,10 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
+  },
+  {
+    path: 'user-details',
+    loadChildren: './user-details/user-details.module#UserDetailsPageModule'
   }
 ];
 
